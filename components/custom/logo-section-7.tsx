@@ -2,6 +2,7 @@
 
 import { PlaceholderLogo } from "@/components/custom/placeholder-logo"; /* Make sure to import your logos */
 import { Tagline } from "@/components/custom/tagline";
+import { Card } from "../ui/focus-cards";
 
 const logosData = [
   {
@@ -65,7 +66,7 @@ export function LogoSection10() {
           </div>
         </div>
       </div>
-      <style jsx global>{`
+      {/* <style jsx global>{`
         @keyframes infinite-scroll {
           from {
             transform: translateX(0);
@@ -79,7 +80,7 @@ export function LogoSection10() {
           animation: infinite-scroll 20s linear infinite;
           will-change: transform;
         }
-      `}</style>
+      `}</style> */}
     </section>
   );
 }

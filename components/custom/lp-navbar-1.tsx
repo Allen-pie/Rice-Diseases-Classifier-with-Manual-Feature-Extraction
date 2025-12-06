@@ -7,11 +7,8 @@ import { useState } from "react";
 import Link from "next/link";
 
 const MENU_ITEMS = [
-  { label: "Features", href: "#features" },
-  { label: "How it works", href: "#how-it-works" },
-  { label: "Docs", href: "https://www.shadcndesign.com/pro-blocks" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Home", href: "/" },
+  { label: "How it works", href: "#how-it-works" }
 ] as const;
 
 interface NavMenuItemsProps {
@@ -39,9 +36,9 @@ export function LpNavbar1() {
     <nav className="bg-background sticky top-0 isolate z-50 border-b py-3.5 md:py-4">
       <div className="relative container m-auto flex flex-col justify-between gap-4 px-6 md:flex-row md:items-center md:gap-6">
         <div className="flex items-center justify-between">
-          <Link href="/">
-            <Logo />
-          </Link>
+          {/* <Link href="/">
+            Rice 
+          </Link> */}
           <Button
             variant="ghost"
             className="flex size-9 items-center justify-center md:hidden"
@@ -53,10 +50,10 @@ export function LpNavbar1() {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden w-full flex-row justify-end gap-5 md:flex">
+        <div className="hidden w-full flex-row justify-center gap-5 md:flex">
           <NavMenuItems />
-          <Link href="#pricing">
-            <Button>Try for free</Button>
+          <Link href="/login">
+            <Button>Login</Button>
           </Link>
         </div>
 

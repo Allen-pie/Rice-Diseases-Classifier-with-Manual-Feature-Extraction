@@ -15,9 +15,9 @@ export function Footer1() {
         {/* Top Section */}
         <div className="flex w-full flex-col items-center gap-12 text-center">
           {/* Logo Section */}
-          <Link href="/" aria-label="Go to homepage">
+          {/* <Link href="/" aria-label="Go to homepage">
             <Logo />
-          </Link>
+          </Link> */}
 
           {/* Main Navigation */}
           <nav
@@ -30,37 +30,21 @@ export function Footer1() {
             >
               Home
             </Link>
-            <Link
-              href="#features"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Features
-            </Link>
+         
             <Link
               href="#how-it-works"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               How it works
             </Link>
-            <Link
-              href="https://www.shadcndesign.com/pro-blocks"
-              target="_blank"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Docs
-            </Link>
+       
             <Link
               href="#faq"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               FAQ
             </Link>
-            <Link
-              href="#pricing"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Pricing
-            </Link>
+          
           </nav>
         </div>
 
@@ -68,30 +52,30 @@ export function Footer1() {
         <Separator role="presentation" />
 
         {/* Bottom Section */}
-        <div className="flex w-full flex-col-reverse items-center gap-12 text-sm lg:flex-row lg:justify-between lg:gap-6">
+        <div className="flex w-full flex-col items-center gap-12 text-sm  lg:gap-6">
           {/* Copyright Text */}
-          <p className="text-muted-foreground text-center lg:text-left">
-            Built with{" "}
+          <p className="text-muted-foreground text-center lg:text-center">
+            Built by{" "}
             <Link
               href="https://www.shadcndesign.com/pro-blocks"
               className="underline"
               target="_blank"
             >
-              Pro Blocks
-            </Link>{" "}
-            by{" "}
+              Fernando Gunawan & Pieter Allen
+            </Link>
+            {/* by{" "}
             <Link
               href="https://www.shadcndesign.com/"
               className="underline"
               target="_blank"
             >
               shadcndesign.com
-            </Link>
+            </Link> */}
             . All rights reserved.
           </p>
 
           {/* Legal Navigation */}
-          <nav
+          {/* <nav
             className="flex flex-col items-center gap-6 text-sm md:flex-row md:gap-8"
             aria-label="Legal links"
           >
@@ -116,7 +100,7 @@ export function Footer1() {
             >
               Cookies Settings
             </Link>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </footer>
