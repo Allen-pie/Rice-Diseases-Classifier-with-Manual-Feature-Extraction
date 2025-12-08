@@ -76,7 +76,7 @@ export default function Page() {
               Healthy, Bacterial Leaf Blight, Leaf Blast, and Brownspot.
             </p>
           </h3>
-
+    
           <div className="relative w-full overflow-hidden mask-[linear-gradient(to_right,transparent_0%,black_12.5%,black_87.5%,transparent_100%)]">
             <div className="animate-infinite-scroll flex w-max items-center gap-x-10">
               {cards.map((item, index) => {
@@ -188,7 +188,7 @@ export default function Page() {
       {/* <PricingSection3 /> */}
 
       {/* accordion section */}
-      {/* <FaqSection2 /> */}
+      <FaqSection2 />
 
       <Footer1 />
     </main>

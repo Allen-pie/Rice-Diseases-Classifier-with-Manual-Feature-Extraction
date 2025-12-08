@@ -11,7 +11,7 @@ const onest = Onest({
 export const metadata: Metadata = {
   title: "Rice Plant Diseases Classifier",
   description:
-    "MindSpace is a modern and clean SaaS shadcn/ui template built with Pro Blocks",
+    "A classifier rice plant diseases and have a recomendation too.",
 };
 
 export default function RootLayout({

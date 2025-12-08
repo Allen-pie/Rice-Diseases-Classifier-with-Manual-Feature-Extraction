@@ -6,7 +6,7 @@ import { Tagline } from "@/components/custom/tagline";
 export function FeatureSection9() {
   return (
    <section
-  className="bg-secondary section-padding-y border-b"
+  className="bg-secondary mt-5 mb-[150px] pb-10 border-b"
   id="how-it-works"
 >
   <div className="container-padding-x container mx-auto flex flex-col gap-10 md:gap-12">

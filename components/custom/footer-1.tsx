@@ -7,20 +7,20 @@ import { Separator } from "@/components/ui/separator";
 export function Footer1() {
   return (
     <footer
-      className="bg-background section-padding-y"
+      className="bg-background p-8"
       role="contentinfo"
       aria-label="Site footer"
     >
       <div className="container-padding-x container mx-auto flex flex-col gap-12 lg:gap-16">
         {/* Top Section */}
-        <div className="flex w-full flex-col items-center gap-12 text-center">
+        {/* <div className="flex w-full flex-col items-center gap-12 text-center"> */}
           {/* Logo Section */}
           {/* <Link href="/" aria-label="Go to homepage">
             <Logo />
           </Link> */}
 
           {/* Main Navigation */}
-          <nav
+          {/* <nav
             className="flex flex-col items-center gap-6 text-sm md:flex-row md:gap-8"
             aria-label="Footer navigation"
           >
@@ -45,11 +45,11 @@ export function Footer1() {
               FAQ
             </Link>
           
-          </nav>
-        </div>
+          </nav> */}
+        {/* </div> */}
 
         {/* Section Divider */}
-        <Separator role="presentation" />
+        {/* <Separator role="presentation" /> */}
 
         {/* Bottom Section */}
         <div className="flex w-full flex-col items-center gap-12 text-sm  lg:gap-6">

@@ -241,3 +241,7 @@
           animation: infinite-scroll 10s linear infinite;
           will-change: transform;
         }
+
+html{
+  scroll-behavior: smooth;
+}
