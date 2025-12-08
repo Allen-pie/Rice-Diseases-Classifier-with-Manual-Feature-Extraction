@@ -9,7 +9,7 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-  title: "MindSpace - template built with shadcndesign.com",
+  title: "Rice Plant Diseases Classifier",
   description:
     "MindSpace is a modern and clean SaaS shadcn/ui template built with Pro Blocks",
 };
