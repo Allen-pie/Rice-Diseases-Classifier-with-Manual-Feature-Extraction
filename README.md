@@ -108,7 +108,7 @@ The trained model is integrated into a web-based application designed to be simp
 
 ## Demo
 <p align="center">
-  ![COMPVIS-DEMO-Trim-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f2c4241c-b8ae-470b-afee-dec62f0585cc)
+  <img src="https://github.com/user-attachments/assets/f2c4241c-b8ae-470b-afee-dec62f0585cc" alt="DL-DEMO-GIF"/>
 </p> 
 
 ## Authors
