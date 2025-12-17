@@ -13,7 +13,7 @@ export function FeatureSection9() {
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
           <Tagline>How it works</Tagline>
           <h2 className="heading-lg text-foreground">
-            Diagnose rice leaf diseases in minutes
+            Diagnose rice leaf diseases in seconds
           </h2>
           <p className="text-muted-foreground text-base">
             Upload a leaf image, let our AI analyze it, and get instant disease

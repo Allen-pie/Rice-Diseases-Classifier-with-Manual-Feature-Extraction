@@ -109,7 +109,7 @@ const ImageUploaderAi = React.forwardRef<
             </div>
           ) : (
             <div className="space-y-4">
-              <div className="relative rounded-xl overflow-hidden  ">
+              <div className="relative rounded-xl overflow-hidden">
                 {isAnalyzing && (
                   <>
                     <div className="flex flex-col items-center justify-center absolute w-full h-full ">
@@ -123,11 +123,14 @@ const ImageUploaderAi = React.forwardRef<
                   </>
                 )}
 
-                <img
-                  src={image.url || "/placeholder.svg"}
-                  alt="Uploaded food"
-                  className="w-full h-auto object-cover"
-                />
+                <div className="flex justify-center items-center">
+                  <img
+                    src={image.url}
+                    alt="Uploaded leaf"
+                    className="w-[300px] h-[300px] object-cover"
+                  />
+                </div>
+                
               </div>
 
               <div className="flex gap-2">

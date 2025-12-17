@@ -13,7 +13,7 @@ import { useRef, useState } from "react";
 import { FocusCard } from "@/components/ui/focus-cards";
 
 export default function Page() {
-  const LINK_BE = "https://be-compvis-production.up.railway.app/predict";
+  const LINK_BE = "http://127.0.0.1:5000/predict";
   const uploaderRef = useRef<ImageUploaderAiHandle>(null);
   const [isAnalyzing, setIsAnalyzing] = useState<boolean>(false);
 
@@ -183,31 +183,8 @@ export default function Page() {
           </div>
         </div>
       </section>
-
-      {/* <HeroSection2 />
-      <LogoSection10 />
-      <TestimonialsSection1
-        quote="MindSpace is like having a photographic memory for every meeting. We reduced the follow-up emails by 80%."
-        authorName="David Park"
-        authorRole="Engineering Manager at TechCorp"
-        avatarSrc="/DavidPark.png"
-      /> */}
-      {/* <BentoGrid6 /> */}
-
       <FeatureSection9  />
-
-      {/* <StatsSection4 /> */}
-      {/* <TestimonialsSection1
-        quote="At TechStar, 43% of meeting content was forgotten within 24 hours. Now, the AI summaries are better than my own notes!"
-        authorName="Monica Kurt"
-        authorRole="Project Manager at TechStar"
-        avatarSrc="/MonicaKurt.png"
-      /> */}
-      {/* <PricingSection3 /> */}
-
-      {/* accordion section */}
       <FaqSection2 />
-
       <Footer1 />
     </main>
   );
